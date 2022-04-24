@@ -1,0 +1,320 @@
+body {
+  height: 200vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#redes_sociais {
+  position: absolute;
+  top: 1%;
+  right: 5%;
+  border: green solid 5px;
+  height: 100px;
+  width: 1000px;
+}
+#redes_sociais img {
+  position: relative;
+  height: 60px;
+  transform: translate(-50%, -50%);
+  border: 5px;
+  top: 50%;
+}
+
+.background {
+  background-size: contain;
+  background-repeat: repeat-y;
+}
+
+#b1 {
+  opacity: 0.7;
+  background-image: url(../images/wallpaper.jpg);
+  position: absolute;
+  height: 150vh;
+  width: 100%;
+}
+
+#teste {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: absolute;
+  top: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+#div1 {
+  position: relative;
+  height: 150vh;
+  width: 100%;
+}
+#div1 #div_welcome {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+#div1 #div_welcome #madebyyue {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  top: 50%;
+  left: 50%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#div1 #div_welcome #madebyyue #made {
+  line-height: 1;
+  font-family: "Secular One", cursive;
+  color: #FDDF5B;
+  font-size: 150px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#div1 #div_welcome #madebyyue #nome {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  height: 230px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #aac7ff;
+  font-family: "Lobster", cursive;
+  color: #f1f1f1;
+  font-size: 170px;
+  line-height: 1;
+}
+#div1 #div_welcome .welcome {
+  z-index: 1;
+  font-family: "Rock 3D", cursive;
+  font-weight: bold;
+  font-size: 200px;
+  position: absolute;
+  top: 33%;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#div1 #clip {
+  position: absolute;
+  left: 0%;
+  height: 100vh;
+  width: 100%;
+  background-color: #ebba35;
+  background-repeat: no-repeat;
+  clip-path: polygon(100% 50%, 0% 100%, 100% 100%);
+  z-index: 1;
+}
+#div1 #clip img {
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0%;
+  right: 2%;
+  width: 400px;
+  height: 400px;
+}
+#div1 #clip2 {
+  position: absolute;
+  left: 0%;
+  height: 100vh;
+  width: 100%;
+  background-color: #4ab19b;
+  background-repeat: no-repeat;
+  z-index: 1;
+  clip-path: polygon(85% 100%, 0 80%, 0 100%);
+}
+#div1 #clip2 img {
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0%;
+  left: 2%;
+  width: 200px;
+  height: 200px;
+}
+#div1 #circulao {
+  position: absolute;
+  clip-path: circle(50% at 50% 50%);
+  background: #00f1c9;
+  height: 600px;
+  width: 600px;
+}
+#div1 #circulao img {
+  mix-blend-mode: overlay;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 500px;
+}
+#div1 .circulo {
+  z-index: 1;
+  position: absolute;
+  clip-path: circle(50% at 50% 50%);
+  background: #ef3d95;
+  border-radius: 12px;
+  width: 300px;
+  height: 300px;
+}
+#div1 .circulo img {
+  mix-blend-mode: overlay;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.circulinho {
+  position: absolute;
+  border-radius: 50%;
+  background: #FDDF5B;
+  height: 50px;
+  width: 50px;
+}
+
+#extras {
+  position: fixed;
+  left: 10px;
+  bottom: 200px;
+}
+
+#div2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#profile {
+  position: absolute;
+  left: 15%;
+  top: 42%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 400px;
+}
+#profile img {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+#profile p {
+  position: absolute;
+  left: 47%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  color: #1f1f1f;
+  font-family: "Lucida Handwriting", cursive;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#progress {
+  position: fixed;
+  height: 100vh;
+  width: 100px;
+  top: 0%;
+  right: 0%;
+  z-index: 1;
+}
+
+#progress_bar {
+  background: #7676ff;
+  position: absolute;
+  width: 100%;
+  height: 0%;
+}
+
+#progress_bar_wrap {
+  top: 0%;
+  right: 0%;
+  position: absolute;
+  width: 15px;
+  height: 100%;
+  overflow: hidden;
+}
+
+#frame1 {
+  height: 400px;
+  width: 700px;
+  background-color: orange;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+  padding: 20px;
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+#frame1 .title {
+  font-size: 50px;
+}
+
+#frame1:hover {
+  background-color: purple;
+}
+
+#btn_menu {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 3;
+  border-radius: 50%;
+  box-shadow: -2px 2px 3px 0px #747474;
+}
+#btn_menu div, #btn_menu #opcoes {
+  width: 70px;
+  height: 70px;
+  background-color: #38BDF2;
+  border-radius: 50%;
+  position: absolute;
+  transition: all 0.2s ease;
+}
+#btn_menu #opcoes {
+  background-color: #FDDF5B;
+  width: 200px;
+  height: 200px;
+  left: -65px;
+  top: -65px;
+  opacity: 0%;
+  z-index: -1;
+  transition: all 1s ease;
+}
+#btn_menu img {
+  width: 70px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+#btn_menu:hover #opcoes {
+  opacity: 100%;
+  transform: rotate(90deg);
+}
+
+/*# sourceMappingURL=styles.css.map */
